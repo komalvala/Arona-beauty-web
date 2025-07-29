@@ -1,0 +1,324 @@
+.container{
+    width: 1980px;
+} 
+a{
+    text-decoration: none;
+}
+body{
+    background-color:#fffbf3 ;
+    font-family: 'figtree',sans-serif;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+/* Header */
+header{
+    border-bottom: 1px solid #f5ecd9;
+}
+/* banner */
+.banner{
+    margin-bottom:9% !important;
+}
+.banner-data h1{
+    font-size: 72px;
+    font-family: 'fraunces',sans-serif;
+    font-weight: 300;
+    line-height: 120%;
+    color: black;
+}
+.button{
+   display: flex;
+}
+.data{
+    max-width: 75%;
+    background-color: #f5ecd9 ;
+    margin-top:20% !important;
+}
+.data p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    align-items: center;
+}
+.banner .review-img img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: -15px;
+}
+.banner .review-img p{
+    margin-left: 30px;
+}
+/* about */
+.about-info {
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+}
+.about-data{
+    display: flex;
+    justify-content: space-between;
+}
+.about-data h1{
+    font-family: 'fraunces',sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 120%;
+}
+.about-data p{
+    text-align: right;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    flex-direction: column;
+}    
+/* category */
+.category{
+    background-color:#f5ecd9;
+}
+.category-link{
+    display: flex;
+    border-bottom: 1px solid #c5b597;
+}
+.category-link h2{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 120%;
+}
+.category-link img{
+    opacity: 0;
+    transition: all 0.3s;
+}
+.category-link img:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+/* products */
+.products h1{
+    font-family: Fraunces, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 120%;
+    display: flex;
+}
+.products-name{
+    font-family: Figtree, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.products .btn{
+    margin-top: 30px;
+    padding-left:57%;
+}
+/* .products .pro-img  img{
+    overflow: hidden;
+} */
+.products img{
+    transition: all 0.5s;
+}
+.products img:hover{
+    transform: scale(1.04);
+}
+
+/* logo */
+.logo-section{
+    border-top: 1px solid #c5b597;
+    border-bottom: 1px solid #c5b597;
+}
+.logo-section h4{
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 50px;
+}
+.logo-section p{
+    margin-top: 0%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 80%;
+}
+.logo-section img{
+    margin-bottom: 25% !important;
+}
+/* shopping */
+.shopping-data{
+    padding: 90px 0px;
+}
+.shopping-data h2{
+    font-family: Fraunces, sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 120%;
+}
+/* feature */
+.feature{
+    background-color:#f5ecd9;
+}
+.feature img{
+    border: #000 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+/* list-item */
+.list-item{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.list-item h1{
+    font-family: Fraunces, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 120%;
+    padding-top: 50px;
+}
+ .list-item .product-data h6{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.list-item .btn{
+    margin-top:80px;
+    padding-left:65%;
+}
+.product-img{
+    overflow: hidden;
+}
+.product-img img{
+    transition: all 0.5s;
+}
+.product-img img:hover{
+    transform: scale(1.04);
+} 
+/* review */
+.review{
+    border-top: 1px solid #c5b597;
+    border-bottom: 1px solid #c5b597;
+}
+.review h6{
+    padding-top: 10px;
+    margin: 0 auto;
+    font-family: Fraunces, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 150%;
+    max-width: 70%;
+}
+.review img{
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.review .title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; 
+}
+.review p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+/* blog */
+.blogs img{
+    width: 229px;
+    height: 300px;
+}
+.blog h2{
+    font-family: Fraunces, sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+.blog h4{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.blog-width{
+    max-width: 350px;
+}
+.blog-br img{
+    display: flex;
+}
+.blogs{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.blog .product-img{
+    width: 230px;
+    height: 300px;
+}
+.blog-data button img{
+    width: 20px;
+    height: 20px;
+}
+.blog .row .col-6{
+    width: 49%;
+}
+/* arona-shop */
+.arona-shop h4{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.arona-shop p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.arona-shop .row .col-lg-2{
+    position: relative;
+    cursor: pointer;
+}
+.insta-img{
+    position: absolute;
+    z-index: 999;
+    top: 46%;
+    left: 46%;
+    opacity: 0;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+.arona-shop .row .col-lg-2:hover .insta-img{
+    opacity:1 !important;
+    transform: scale(1.04);
+} 
+/* footer */
+footer{
+    background-color: #000;
+}
+.f-mail h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.last{
+    background-color: #000;
+} 
+.dat a{
+    color: #999999 !important;
+    transition: 0.5;
+}
+.dat a:hover{
+    color: #fff !important;
+    transition: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+

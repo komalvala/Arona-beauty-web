@@ -1,0 +1,766 @@
+/* 992px  */
+
+@media(max-width:992px) {
+
+    /*  banner  */
+    .banner .banner-data h1 {
+        font-size: 68px;
+        line-height: 80px;
+    }
+
+    .banner .banner-data .data p {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .banner .skin-img {
+        width: 100%;
+        height: 320px;
+    }
+
+    .banner-data .review-img {
+        object-fit: cover;
+        width: 100%;
+        min-height: 320px;
+        max-height: 320px;
+    }
+
+    .banner .review-img img {
+        border-radius: 50%;
+        margin-right: -15px;
+    }
+
+    .banner .review-img p {
+        font-size: 14px;
+        max-width: 95%;
+    }
+
+    .banner-data-right p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 150%;
+        max-width: 85%;
+        text-align: right;
+    }
+
+    .banner-data-right img {
+        object-fit: cover;
+        width: 100%;
+        min-height: 540px;
+        max-height: 540px;
+    }
+
+    /*  about  */
+    .about-data h1 {
+        font-size: 47px !important;
+        font-weight: 300;
+        line-height: 100% !important;
+    }
+
+    .about .about-data p {
+        text-align: right;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .about .about-img img {
+        min-height: 100% !important;
+    }
+
+    /* category */
+    .category p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 150%;
+    }
+
+    .category-link h2 {
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 120%;
+    }
+
+    .category-img img {
+        width: 100%;
+        height: 590px;
+    }
+
+    /* products */
+    .products h1 {
+        font-size: 50px !important;
+        font-weight: 300;
+        line-height: 120%;
+        display: flex;
+    }
+
+    .products .product-img img {
+        width: 215px;
+        height: 350px;
+    }
+
+    /* logo-section */
+    .logo-section h4 {
+        font-size: 22px;
+        line-height: 150%;
+        text-align: center !important;
+    }
+
+    .logo-section p {
+        text-align: left;
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .logo-section img {
+        margin-top: 25% !important;
+    }
+
+    /* shopping */
+    .shopping-data h2 {
+        font-family: Fraunces, sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 120%;
+    }
+
+    .shopping-img img {
+        width: 100% !important;
+        height: 500px !important;
+    }
+
+    /* list-item */
+    .list-item h1 {
+        font-size: 45px;
+        line-height: 120%;
+    }
+
+    .list-item {
+        margin-top: -10%;
+    }
+
+    .list-item h6 {
+        font-size: 16px;
+    }
+
+    /* blog */
+    .blog h4 {
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .blog-width {
+        max-width: 300px;
+    }
+
+    .blog .product-img {
+        width: 350px !important;
+        height: 300px;
+    }
+
+    .blog-data button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .blog .row .col-6 {
+        width: 40%;
+    }
+}
+
+/*=============== 768============== */
+
+@media(max-width:768px) {
+
+    /* header */
+    header .navbar-brand img {
+        max-width: 112px !important;
+        min-height: 24px !important;
+    }
+
+    /*  banner  */
+    .banner .banner-data h1 {
+        font-size: 68px !important;
+        max-width: 85%;
+    }
+
+    .banner-data .btn {
+        margin-bottom: -100px !important;
+    }
+
+    .banner .banner-data .data {
+        font-size: 12px;
+        align-items: center;
+        max-width: 60%;
+        margin-top: -10px;
+        margin-bottom: 10%;
+    }
+
+    .banner .skin-img {
+        width: 300px !important;
+        height: 340px !important;
+    }
+
+    .banner .review-img img {
+        height: 40px !important;
+        width: 40px !important;
+        border-radius: 50%;
+    }
+
+    .banner .review-img p {
+        font-size: 14px;
+        max-width: 95%;
+    }
+
+    .banner .banner-data-right img {
+        width: 100% !important;
+        height: 510px;
+    }
+
+    .banner-data-right p {
+        font-size: 13px;
+        max-width: 99% !important;
+    }
+
+    /*  about  */
+    .about-data h1 {
+        font-size: 47px !important;
+        max-width: 100%;
+    }
+
+    .about .about-data p {
+        font-size: 14px;
+        text-align: start;
+        max-width: 50%;
+    }
+
+    .about .about-data .btn {
+        margin-bottom: -50% !important;
+    }
+
+    .about-img {
+        margin-top: 200px !important;
+        width: 100%;
+        display: none;
+    }
+
+    /* category */
+    .category {
+        margin-top: 150px;
+    }
+
+    .category p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 150%;
+    }
+
+    .category-link h2 {
+        font-size: 35px;
+    }
+
+    /* products */
+    .products h1 {
+        font-size: 40px !important;
+        display: flex;
+    }
+
+    .products .pro-img img {
+        width: 230px;
+        height: 275px;
+    }
+    .products .products-name {
+        margin-top: -2px !important;
+    }
+
+    /* logo-section */
+    .logo-section h4 {
+        font-size: 20px;
+    }
+
+    .logo-section p {
+        font-size: 14px;
+        max-width: 55% !important;
+        margin-left: 30% !important;
+    }
+
+    .logo-section img {
+        width: 250px !important;
+        height: 80px !important;
+        margin-left: 150px;
+    }
+
+    /* shopping */
+    .shopping {
+        margin-top: -100px !important;
+    }
+
+    .shopping-data h2 {
+        font-size: 40px;
+    }
+
+    .shopping-data p {
+        margin-top: 20px !important;
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+    .shopping-img img {
+        margin-top: -60px;
+        width: 351px !important;
+        height: 430px !important;
+    }
+
+    /* list-item */
+    .list-item h1 {
+        font-size: 40px;
+    }
+
+    .list-item {
+        margin-top: -10%;
+    }
+
+    .list-item h6 {
+        font-size: 16px;
+    }
+
+    /* review */
+    .review h6 {
+        font-size: 28px !important;
+        max-width: 100% !important;
+        text-align: center;
+    }
+   /* blog */
+    .blog h4{
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .blog-width{
+        margin-top: -40px;
+        max-width:100%;
+    }
+    .blog .product-img{
+        width: 450px !important;
+        height: 350px;
+    }
+    .blog-data button img{
+        width: 20px;
+        height: 20px;
+    }
+    /* arona-shop */
+    /* footer */
+   /* last */
+   .last p{
+    text-align: center !important;
+   }
+}
+
+/* ============== 576 =============== */
+
+@media(max-width:576px) {
+
+    /* banner */
+    .banner .banner-data h1 {
+        font-size: 54px !important;
+        max-width: 55% !important;
+    }
+    .banner .banner-data .data{
+        align-items: center;
+        margin-top:-10px;
+        margin-bottom: 10%;
+    }
+    .banner .banner-data .data p{
+        font-size:18px !important;  
+    }
+    .banner .skin-img{
+        width: 400px !important;
+        height: 450px !important;
+    } 
+    .banner .review-img img{
+        height: 45px !important;
+        width: 45px !important;
+        border-radius: 50%;
+    }
+    .banner .review-img p{
+        font-size:18px;
+    }
+    .banner .banner-data-right img{
+        width: 100% !important;
+        height: 610px !important;
+    }
+    .banner-data-right p{
+        font-size: 20px;
+    }
+    /* about */
+    .about .about-data h1{
+        font-size: 42px !important;
+    }
+    .about .about-data .btn{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .about .about-data .btn img{
+        width: 45px !important;
+        height: 45px !important;
+    }
+    .about img{
+        width: 536px !important;
+        height:300px !important;
+    }
+    .about .about-data p{
+        margin-top: 50px !important;
+        font-size: 18px !important;
+        line-height: normal;
+    }
+    /* categary */
+    .category p{
+        font-size:18px;
+    }
+    .category-link h2{
+        font-size: 38px !important;
+    }
+    .category-img img{
+        width:100%;
+        height:700px;
+    }
+    /* logo-section */
+    .logo-section h4{
+        font-size: 25px !important;
+        margin-bottom: 20px !important;
+     }
+     .logo-section p{
+        margin-left: 30px !important;
+        font-size: 20px !important;
+        max-width: 90% !important;
+     }
+     .logo-section img{
+        margin-left: 30px !important;
+        margin-top:35px !important;
+     }
+     /* shopping */
+    .shopping-data h2{
+        font-size: 36px;
+    }
+    .shopping-data p{
+        font-size:14px;
+    }
+    .shopping-img img{
+        margin-top: -130px;
+    }
+    /* list-item */
+    .list-item .item-data h1{
+        font-size:45px;
+    }
+    .item-data .btn{
+        display: none !important;
+    }
+    .list-item .product-img img{
+        width: 300px !important;
+        height: 300px !important;
+        margin-bottom: -30px;
+    }
+    /*review */
+    .review h6{
+        font-size: 24px !important;
+    }
+}
+/* 375 */
+@media(max-width:375px) {
+    /*  banner  */
+        .banner .banner-data h1 {
+            font-size: 34px !important;
+            line-height: normal;
+            max-width: 16% !important;
+        }
+        .banner .btn {
+            margin-top: 10px !important;
+        }
+        .banner .banner-data .data{
+            margin-top: 80px !important;
+            max-width: 18%;
+            margin-bottom: 0%;
+        }
+        .banner .banner-data .data p{
+            font-size:16px !important;  
+        }
+        .banner .skin-img{
+            margin-top: 10px;
+            width: 300px !important;
+            height: 350px !important;
+        } 
+        .banner .review-img img{
+            height: 35px !important;
+            width: 35px !important;
+            border-radius: 50%;
+        }
+        .banner .review-img p{
+            font-size:14px;
+        }
+        .banner-data-right p {
+            font-size: 16px;
+            max-width: 18% !important;
+            display: inline-flex;
+        }
+        .banner-data-right img {
+            object-fit: cover;
+            max-width: 350px !important;
+            height: 350px !important;
+        }
+     /*  about  */
+        .about .about-data h1{
+            font-size: 32px !important;
+            max-width: 30% !important;
+            margin-bottom: -150px !important;
+        }
+        .about .about-data p {
+            max-width: 20% !important;
+            font-size: 16px !important;
+        }
+       .about .about-data .btn {
+            display: none !important;
+        }
+        .about img {
+            width: 350px !important;
+            height: 200px !important;
+        }
+    /* category */
+        .category p {
+            font-size: 16px;
+        }
+        .category-link h2 {
+            font-size: 22px !important;
+        }
+        .category-img img {
+            width: 350px !important;
+            height: 400px !important;
+        }
+    /* products */
+        .products h1 {
+            font-size: 32px !important;
+        }
+        .products .pro-img img{
+            margin-top:-30px;
+            width: 300px !important;
+            height: 350px !important;
+            margin-left: 25px;
+        }
+        .products-name{
+            margin-top: 5px;
+            margin-left: 30px !important;
+        } 
+        .products p{
+            margin-top: 5px;
+            margin-left: 30px !important;
+        }
+     /* logo-section */
+        .logo-section{
+            display: none;
+        }
+        /* shopping */
+        .shopping-data h2 {
+            font-size: 34px !important;
+            max-width: 20%;
+        }
+        .shopping-data p{
+            max-width: 15%;
+        }
+    /* feature */
+        .feature{
+            margin-left: -800px !important;
+        }
+    /* list-item */
+       .list-item{
+            display: none;
+       }
+    /* review */
+        .review{
+            margin-left: -800px;
+        }
+        .review h6{
+            font-size: 18px !important;
+            max-width: 15% !important;
+        }
+    /* blog */
+        .blog h2{
+            font-size: 34px !important;
+        }
+        .blog p{
+            margin-top: -20px;
+        }
+        .blog h4 {
+            font-size: 20px !important;
+            max-width: 45%;
+        }
+        .blog-width {
+            max-width: 200px;
+        }
+        .blog .product-img {
+            width: 180px !important;
+            height: 300px !important;
+        }
+        .blog-data button img {
+            width: 20px;
+            height: 20px;
+        }
+    /* arona-shop */
+        .arona-shop{
+            margin-top: -60px;
+        }
+        .arona-shop .shop-img{
+            height: 130px !important;
+            width: 130px !important;
+        }
+    /* footer */
+        footer{
+            max-width:100% !important ;
+        }
+    }
+/* 320 */
+@media(max-width:320px) {
+/*  banner  */
+    .banner .banner-data h1 {
+        font-size: 30px !important;
+        line-height: normal;
+        max-width: 12% !important;
+    }
+    .banner .btn {
+        margin-top: 10px !important;
+    }
+    .banner .banner-data .data {
+        display: none !important;
+    }
+    .banner .skin-img {
+        display: none !important;
+    }
+    .banner .review-img img {
+        display: none !important;
+    }
+    .banner .review-img p {
+        display: none !important;
+    }
+    .banner-data-right p {
+        font-size: 14px;
+        max-width: 15% !important;
+        display: inline-flex;
+    }
+    .banner-data-right img {
+        margin-top: 80px;
+        object-fit: cover;
+        max-width: 280px !important;
+        height: 350px !important;
+        margin-left: 10px;
+    }
+ /*  about  */
+    .about .about-data h1{
+        font-size: 30px !important;
+        max-width: 30% !important;
+        margin-bottom: -150px !important;
+    }
+    .about .about-data p {
+        max-width: 20% !important;
+        font-size: 14px !important;
+    }
+   .about .about-data .btn {
+        display: none !important;
+    }
+    .about img {
+        width: 300px !important;
+        height: 200px !important;
+    }
+/* category */
+    .category p {
+        font-size: 14px;
+    }
+    .category-link h2 {
+        font-size: 20px !important;
+    }
+    .category-img img {
+        width: 280px !important;
+        height: 310px !important;
+        margin-left: 10px;
+    }
+/* products */
+    .products h1 {
+        font-size: 30px !important;
+    }
+    .products .pro-img img{
+        margin-top:-30px;
+        width: 250px !important;
+        height: 300px !important;
+        margin-left: 25px;
+    }
+    .products-name{
+        margin-top: 5px;
+        margin-left: 30px !important;
+    } 
+    .products p{
+        margin-top: 5px;
+        margin-left: 30px !important;
+    }
+ /* logo-section */
+    .logo-section{
+        display: none;
+    }
+    /* shopping */
+    .shopping-data h2 {
+        font-size: 32px !important;
+        max-width: 20%;
+    }
+    .shopping-data p{
+        max-width: 15%;
+    }
+    .shopping-img img{
+        margin-left: -15px !important;
+    }
+/* feature */
+    .feature{
+        margin-left: -830px !important;
+    }
+/* list-item */
+   .list-item{
+        display: none;
+   }
+/* review */
+    .review{
+        margin-left: -830px;
+    }
+    .review h6{
+        font-size: 18px !important;
+        max-width: 15% !important;
+    }
+/* blog */
+    .blog h2{
+        font-size: 32px !important;
+    }
+    .blog p{
+        margin-top: -5px;
+        max-width: 10%;
+    }
+    .blog h4 {
+        font-size: 18px !important;
+        max-width: 30%;
+    }
+    .blog-width {
+        max-width: 150px;
+    }
+    .blog .product-img {
+        width: 160px !important;
+        height: 300px !important;
+    }
+    .blog-data button img {
+        width: 20px;
+        height: 20px;
+    }
+/* arona-shop */
+    .arona-shop{
+        margin-top: -60px;
+    }
+    .arona-shop .shop-img{
+        height: 110px !important;
+        width: 110px !important;
+    }
+/* footer */
+    footer{
+        max-width:100% !important ;
+    }
+}
