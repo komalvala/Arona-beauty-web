@@ -184,8 +184,13 @@ header{
     line-height: 150%;
 }
 .list-item .btn{
-    margin-top:80px;
-    padding-left:65%;
+    margin-top:50px;
+    padding: 10px 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    font-size: 14px;
 }
 .product-img{
     overflow: hidden;
