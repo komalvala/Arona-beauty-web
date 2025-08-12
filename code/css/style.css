@@ -1,5 +1,6 @@
 .container{
-    width: 1980px;
+    width: 100%;
+    max-width: 100%;
 } 
 a{
     text-decoration: none;

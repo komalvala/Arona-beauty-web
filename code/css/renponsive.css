@@ -566,7 +566,7 @@
         }
     /* feature */
         .feature{
-            margin-left: -800px !important;
+            margin-left: 0 !important;
         }
     /* list-item */
        .list-item{
@@ -574,7 +574,7 @@
        }
     /* review */
         .review{
-            margin-left: -800px;
+            margin-left: 0;
         }
         .review h6{
             font-size: 18px !important;
@@ -714,7 +714,7 @@
     }
 /* feature */
     .feature{
-        margin-left: -830px !important;
+        margin-left: 0 !important;
     }
 /* list-item */
    .list-item{
@@ -722,7 +722,7 @@
    }
 /* review */
     .review{
-        margin-left: -830px;
+        margin-left: 0;
     }
     .review h6{
         font-size: 18px !important;
